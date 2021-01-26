@@ -7,42 +7,63 @@
 /* CENTRATURA PAGINA */
 
 #container {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
 }
 
-
-
-/* REGOLAZIONE DELLA GRANDEZZA DI DIV e CONTENITORE */
+/*  LOGO E MENU PRINCIPALE */
 
 div.menu-principale {
-
   height: 10vh;
   background-color: #ff66ff;
+
+
+}
+
+.menu-principale>img {
+  position: relative;
+  width: 150px; height: 55px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+#menu {
+  font-size: 15px;
+  color: grey;
+  word-spacing: 9px;
+  padding-top: 10px;
+}
+
+/* REGOLAZIONE DEL BANNER */
+
+
+
+div.banner {
+  position: relative;
+  height: 40vh;
   margin-top:2vh;
 }
-
-div.sotto-menu {
-  height: 30vh;
-  background-color: #e6e600;
-  margin-top:2vh;
+.banner>img {
+  height: 100%;
+  width: 100%;
 }
+.textyoga {
+  width: 60%;
 
-div.contenitore {
-  height: 45vh;
-  background-color: #1ab2ff;
-  margin:2vh;
-  margin-left: auto;
-  margin-right:auto;
+  position: absolute;
+  top: 60%;
+  margin-left: 5%;
 }
-
-div.finale {
-  height: 6vh;
-  background-color: #8000ff;
-  margin-top:1vh;
+.textyoga>p {
+  font-size: 30px;
+}
+#sub {
+  font-size: 15px;
 
 }
 
+
+/* CONTENITORE */
 /* CLEARFIX */
 
 .contenitore::after {
@@ -50,6 +71,17 @@ div.finale {
   display: table;
   clear: both;
 }
+div.contenitore {
+  height: 35vh;
+  background-color: #1ab2ff;
+  margin:2vh;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+
+
 
 /* CONTENUTO DEL CONTENITORE */
 
@@ -75,4 +107,13 @@ div.top {
   float:left;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+/* FOOTER */
+
+div.finale {
+  height: 6vh;
+  background-color: #8000ff;
+  margin-top:1vh;
+
 }
