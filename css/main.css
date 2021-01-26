@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* CENTRATURA PAGINA */
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+/* REGOLAZIONE DELLA GRANDEZZA DI DIV e CONTENITORE */
+
+div.menu-principale {
+
+  height: 10vh;
+  background-color: #ff66ff;
+  margin-top:2vh;
+}
+
+div.sotto-menu {
+  height: 30vh;
+  background-color: #e6e600;
+  margin-top:2vh;
+}
+
+div.contenitore {
+  height: 45vh;
+  background-color: #1ab2ff;
+  margin:2vh;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+div.finale {
+  height: 6vh;
+  background-color: #8000ff;
+  margin-top:1vh;
+
+}
+
+/* CLEARFIX */
+
+.contenitore::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* CONTENUTO DEL CONTENITORE */
+
+div.top {
+  height: 20%;
+  background-color: #cce6ff;
+  margin-bottom: 1%;
+}
+
+.content {
+
+  height: 70%;
+  width: 15%;
+  background-color: #cce6ff;
+  float: left;
+}
+
+.middle {
+  /* quando metterò il contenuto potrò togliere l'altezza, perchè sarà data dal contenuto */
+  background-color: #cce6ff;
+  height: 70%;
+  width: 60%;
+  float:left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
